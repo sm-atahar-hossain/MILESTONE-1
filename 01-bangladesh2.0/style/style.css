@@ -41,8 +41,9 @@ nav a>button{
     justify-content: space-between;
     align-items: center ;
     margin: 10px 110px;
-    padding: 55px 70px;
+    padding: 50px 40px;
     background: rgba(198, 228, 214, 1);
+    border-radius: 10px;
 }
 #hero-p1{
     color: rgba(14, 14, 14, 0.5);
@@ -74,6 +75,7 @@ nav a>button{
     margin: 40px 110px;
     flex-direction: column;
     padding: 10px;
+    
 }
 .pillars h4{
     padding-bottom: 2px;
@@ -102,3 +104,69 @@ nav a>button{
     height:160px;
     background-color: white;
 }
+
+/* future-vision design */
+.future-vision{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 110px;
+}
+.future-vision > h3{
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+}
+.future-vision > p {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+}
+.future-vision > div{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+}
+.future-vision-layout{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+.future-vision-design{
+    
+    width: 32%;
+    height: 250px;
+    padding: 15px;
+    border-radius: 8px;
+}
+.future-vision-design button{
+    padding: 5px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.future-vision-design img{
+    padding: 5px;
+    width: 50px;
+}
+.future-vision-design h5{
+    padding: 5px;
+    font-size: 18px;
+}
+.future-vision-design p{
+    padding: 5px;
+    font-size: 16px;
+}
+.future-vision-yunus{
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
