@@ -13,6 +13,7 @@
     background-color: rgba(78, 71, 255, 1);
     border-radius: 8px;
     border: none;
+    width: auto;
 }
 /* nav section design */
 .nav{
@@ -162,4 +163,38 @@
 .ready>img{
     border-radius: 30px;
 }
+/* get-in-touch section design */
 
+ .get-in-touch{
+    padding: 40px;
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .get-in-touch>div{
+    font-size: 80px;
+    font-weight: 700;
+    width: 51%;
+ }
+ .get-in-touch>form{
+    width: 47%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+ }
+
+ .get-in-touch label>input,textarea,button{
+    width: 95%;
+   
+ }
+  .get-in-touch label>input,textarea{
+    padding: 15px 10px;
+    border-radius: 8px;
+    border: none;  
+ }
+  .get-in-touch label>p{
+    font-size: 24px;
+    font-weight: 600;
+ }
