@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Raleway", sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Raleway ;
+}
+.home-page-btn{
+    padding: 10px 25px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    background-color: rgba(78, 71, 255, 1);
+    border-radius: 8px;
+    border: none;
+}
+/* nav section design */
+.nav{
+    width: 100%;
+    padding: 40px 10px;
+}
+.nav ul{
+    display: flex;
+    justify-content:space-around ;
+}
+.nav ul>li{
+    list-style: none;
+}
+.nav li>a{
+    text-decoration: none;
+    color: rgba(78, 71, 255, 1);
+    font-size: 30px;
+    font-weight: 800;
+    padding: 0px 10px;
+}
+/* hero section design */
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero >h3{
+    width: 55%;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/* action section design */
+.action{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.action >div{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.action >img{
+    width: 300px;
+    border-radius: 30px;
+}
+.action div>h4{
+    font-size: 33px;
+    font-weight: 700;
+}
+.action div>p{
+    font-size: 16px;
+    color: rgba(37, 36, 50, 0.5);
+}
+/* joined section design */
+.joined{
+    background-color: rgba(193, 191, 246, 0.295);
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.joined>div{
+    width: 70%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.joined>h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.joined div>p{
+    font-size: 16px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.joined p>span{
+    font-size: 80px;
+    font-weight: 900;
+    color:rgba(78, 71, 255, 1) ;
+}
+
+
